@@ -25,6 +25,7 @@ namespace HomeWorkArrayWorkRowsColumns
                 }
                 Console.WriteLine("\n");
             }
+
             for (int i = 0; i < numberesMatrixArray.GetLength(0); i++)
             {
                 for (int j = 0; j < numberesMatrixArray.GetLength(1); j++)
@@ -35,6 +36,7 @@ namespace HomeWorkArrayWorkRowsColumns
                     }
                 }
             }
+
             for (int i = 0; i < numberesMatrixArray.GetLength(0); i++)
             {
                 for (int j = 0; j < numberesMatrixArray.GetLength(1); j++)
@@ -45,6 +47,7 @@ namespace HomeWorkArrayWorkRowsColumns
                     }
                 }
             }
+
             Console.WriteLine(columnMultiplication);
             Console.WriteLine(lineAmount);
         }
